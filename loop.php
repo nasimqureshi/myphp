@@ -8,12 +8,17 @@
 // }
 // echo "Loops ends"
 
-for($i = 100; $i < 0; $i--){
+// for($i = 100; $i < 0; $i--){
+//     echo $i."<br />";
+// }
+//  echo "Loops ends";
+
+$i = 0;
+while($i < 10 ){
     echo $i."<br />";
+    
+    $i++;
 }
- echo "Loops ends";
-
-
 
 
 
